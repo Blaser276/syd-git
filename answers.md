@@ -11,11 +11,13 @@
 ### Task 3
 On a un "unstaged file" dans le depôt git. Normal, on vient de créer un fichier inconnu au depôt et non commité.
 ### Task 4
-
+Quand on revient au "commit initial" une nouvelle branche se forme en préparation des modifications qui pourraient être apportées sur le commit initial. Modifier le "commit initial" revient à créer une nouvelle version de ce-dernier. Les commits suivants sont donc sur la nouvelle branche signifiant qu'il utilise un "commit initial" différent de la première version du "commit initial".
 ### Task 5
+1. On travail dans le dépôt local pas sur le distant. Le distant sert de backup, c'est pour quoi il est important de push les éléments du local sur le distant afin de toujours avoir un backup.
+2. On pourrait simplement cloner le dépôt distant et retrouver l'entièreté du dernier push et donc du dernier travail sauvegardé. 
 
 ### Task 6
-
+Le dépôt originel ne subit pas les modifications même si on les push. L'idée de forker est de créer une branche qui a pour base la dépôt originel. Mon dépôt distant, et par extension local, est situé sur la branche créée en forkant le depot originel. Forker permet donc de travailler en parallèle, donc sur les "children" de notre dépot originel. Le dépôt originel reste donc non-modifié tout en conservant le versionnage dans des branches.
 ## Gitgraph
 
 ### Task 7
