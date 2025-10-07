@@ -19,7 +19,15 @@ Quand on revient au "commit initial" une nouvelle branche se forme en préparati
 ### Task 6
 Le dépôt originel ne subit pas les modifications même si on les push. L'idée de forker est de créer une branche qui a pour base la dépôt originel. Mon dépôt distant, et par extension local, est situé sur la branche créée en forkant le depot originel. Forker permet donc de travailler en parallèle, donc sur les "children" de notre dépot originel. Le dépôt originel reste donc non-modifié tout en conservant le versionnage dans des branches.
 ## Gitgraph
-
-### Task 7
-
 ![Gitgraph](img/gitgraph.svg)
+### Task 7
+1. branche
+2. ash 
+3. Commit message
+4. nom utilisateur de la personne faisant la modification
+5. Tag
+6. Dernier commit de la branche develop
+7. unique commit de la branche feature-auth
+8. dernier commit dela branche main
+9. premier commit de la branche develop
+10. premier commit de la branche main 
